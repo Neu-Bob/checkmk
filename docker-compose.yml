@@ -4,7 +4,7 @@ volumes:
   cmk_etc_cmk:
 services:
   check_mk:
-    image: rockaut/check_mk-server
+    image: checkmk/check-mk-raw
     ports:
       - "5000:5000"
     stdin_open: true
