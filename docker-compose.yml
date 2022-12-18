@@ -1,7 +1,7 @@
 version: '2'
 volumes:
-  - cmk_local
-  - cmk_etc_cmk
+  cmk_local:
+  cmk_etc_cmk:
 services:
   check_mk:
     image: rockaut/check_mk-server
